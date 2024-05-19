@@ -1,0 +1,567 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --primary-font: "Dancing Script", cursive;
+  --secondary-font: "poppins", sans-seriff;
+  font-optical-sizing: auto;
+  --weight: 100;
+  font-style: normal;
+  --flag: "Poppins", sans-serif;
+  --font-weight: 400;
+  --font-style: normal;
+}
+* {
+  padding: 0%;
+  border: 0%;
+  box-sizing: border-box;
+  
+}
+.main{
+  width: 100%;
+  height: 86vh;
+  margin: auto;
+  display: flex;
+  
+  transition:linear 3s ;
+  justify-content: space-around;
+  padding: 8px;
+  background-color: green;
+
+ 
+  
+
+}
+.header{
+  width: 63%;
+  height: 86vh;
+  
+  transition:linear 3s ;
+  
+
+  
+}
+ header nav{
+  width: 100%;
+  height:7vh;
+  margin: 5px auto;
+  
+  padding-right: 2px;
+  padding-left: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+
+  
+}
+
+.icon{
+  width: 2rem;
+  border-radius:4px;
+  padding-right: 2px;
+  
+  
+}
+.nav-h{
+  align-items: center;
+  display: flex;
+}
+.nav-list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-transform: capitalize;
+  padding-right: 12px;
+  transition: 3s linear;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  justify-content: center;
+  font-size: larger;
+  
+
+}
+.lis{
+  width: 80px;
+  height: 24px;
+
+  align-items: center;
+  border-radius: 8px;
+  justify-content: center;
+  display: grid;
+}
+
+
+
+.content{
+  position: relative;
+  width: 100%;
+  height: 90%;
+  ;
+  z-index: 5;
+
+}
+    .content::before{   
+  content: ''; 
+  position:absolute;
+  width: 100%;
+  height: 80%;
+  background: url(images/HOME\ \(2\).jpeg),no-repeat center/cover, rgba(0,0, 0, 0.4);
+  border-radius: 11px;
+  transform: scaleX(-1);
+  z-index: -1;
+
+  }
+   .title{
+    padding-left: 40px;
+    
+    width: 500px;
+    height: auto; 
+    color: #fff;
+    font-style: italic;
+    justify-items: center;
+    transition:linear 3s ;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .title1{
+      padding-left: 40px;
+      
+      width: 500px;
+      height: auto; 
+      color: #fff;
+      font-style: italic;
+      transition:linear 3s; 
+      justify-items: center;
+      display: grid;
+    }
+  .title-h3{
+    
+    font-family: var(--primary-font);
+    font-weight: var(--weight);
+    align-items: center;
+    color: #fff;
+  
+    
+  }
+  .title-p2{
+    font-family: var(--flag);
+    font-size: small;
+    color:#fff;
+    font-weight: var(--weight);
+    
+  }
+  .title-h1{
+    
+    font-family: var(--primary-font);
+    font-weight: var(--weight);
+    align-items: center;
+    color:#fff;
+
+    
+  }
+  .title-p{
+    font-family: var(--flag);
+    font-size: small;
+  }
+  .title-h2{
+   font-family: var(--flag);
+   font-size: small;
+   color: #fff;
+   
+  }
+  .head{
+    width: 36%;
+    height: 86vh;
+    
+    transition:linear 3s ;
+    
+  }
+  .content1{
+    position: relative;
+    width: 100%;
+    height: 90%;
+    ;
+    z-index: 5;
+  }
+      .content1::before{   
+    content: ''; 
+    position:absolute;
+    width: 100%;
+    height: 80%;
+    background: url(images/home.jpeg)no-repeat center/cover;
+    border-radius: 11px;
+    transform: scaleX(1);
+    z-index: -1;
+  
+    }
+    .card{
+      width:100%;
+      height: auto;
+      
+      display: flex;
+      justify-content: space-around;
+      background-color: green;
+    }
+    .card1{
+      position: relative;
+      width:400px;
+      height: 60px; ;
+      
+      z-index: 4; 
+      border-radius: 12px;
+    }
+    .card1::before{
+      content:'';
+      position: absolute;
+      width:400px;
+      height: 60px; ;
+      
+      z-index: 1;
+      background: url(images/homie.jpeg)no-repeat center/cover;
+      padding: 8px;
+      border-radius: 12px;
+
+    }
+    .salepoint{
+      height:80vh;
+      width:100%;
+      
+      margin-top: 3rem;
+      transition-delay: 3ms;
+      transition-timing-function: ease;
+      transform-style: inherit;
+      flex-wrap: wrap;
+      margin-bottom: 3rem;
+
+    
+    }
+    .major{
+      margin: auto;
+      height: 400px;
+      width:100%;
+      
+      gap:3rem;
+    }
+    .majorly{
+      align-items: center;
+      justify-content: center;
+      font-family: var(--flag); 
+      margin-top: 18rem;
+      padding: 3rem;
+    }
+    .minor1{
+     display: flex;
+     justify-content: center;
+     text-transform: capitalize;
+     font-family: var(--secondary-font);
+     font-size: 2.4rem;
+     font-weight:400;
+     color: magenta;
+     
+
+    }
+    .minor11{
+      display: flex;
+      justify-content: center;
+      text-transform: capitalize;
+      font-family: var(--primary-font);
+      font-size: 4rem;
+      font-weight: 600;
+      color:red;
+     }
+     .mayor{
+      
+      margin: auto;
+      height:90%;
+      width:100%;
+      padding: 20px;
+    
+      display: inline-flex;
+      justify-content: space-around;
+      gap: 3rem;
+      
+    }
+    .minor2{
+      width: 400px;;
+      height: 200px;
+    
+      border-radius: 12px;
+      display:grid ;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    
+    .minor3{
+      width: 600px;
+      height: 200px;
+    
+      border-radius: 12px;
+      background: url(images/salept.jpeg)no-repeat center/cover;
+    }
+    .minor4{
+      display: grid;
+     align-items: center;
+     list-style-type:none;
+     justify-content: space-around;
+     gap: 1rem;
+     font-family: var(--flag);
+     font-size: small;
+     font-weight:600;
+    }
+
+    .sp-pic{
+      
+      margin: auto;
+      height:90%;
+      width:100%;
+      padding: 20px;
+    
+      display: inline-flex;
+      justify-content: space-around;
+      gap: 3rem;
+      
+    }
+    
+    
+    .sp-pic1{
+      width:25%;
+      height: 100%;
+    
+      border-radius: 12px;
+      background: url(images/wat.jpeg)no-repeat center/cover;
+    }
+    .sp-pic2{
+      width:25%;
+      height: 100%;
+    
+      border-radius: 12px;
+      background: url(images/kitli.jpeg)no-repeat center/cover;
+    }
+    .sp-pic3{
+      width:25%;
+      height: 100%;
+    
+      border-radius: 12px;
+      background: url(images/bk.jpeg)no-repeat center/cover;
+    }
+    .sp-pic4{
+      width:25%;
+      height: 100%;
+    
+      border-radius: 12px;
+      background: url(images/jim.jpeg)no-repeat center/cover;
+    }
+    .service{
+      height: 80vh;
+      width:100%;
+     
+      gap: 2rem;
+      display:inline-block;
+      justify-content: center;
+      align-items: center;
+      z-index: 40;
+      overflow-y: 100;  
+    }
+    .peres{
+      height: 20vh;
+      width:100%;
+     
+      margin-top: 16rem;
+      margin-bottom: 10rem;
+      gap: 2rem;
+      z-index: 20;
+      display:grid;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .prime{
+      height: 80vh;
+      width:100%;
+     
+      display: inline-block;
+      align-items: center;
+      justify-content: center;
+  
+    }
+    .unit{
+      height: 400px;
+      width: 40%;
+      margin: 4rem;
+      display: inline-block;
+      border-radius: 20px;
+      
+      
+    }
+    .unit1{
+      height: 316px;
+      width:98%;
+     
+      gap: 2rem;
+      border-radius: 20px;
+      display: grid;
+      background: url(images/single.jpeg)no-repeat center/cover;
+      
+      
+    }
+    .unit2{
+      height: 316px;
+      width:98%;
+     
+      gap: 2rem;
+      border-radius: 20px;
+      background: url(images/bedsit.jpeg)no-repeat center/cover;
+       
+    }
+    .unit3{
+      height: 316px;
+      width:98%;
+     
+      gap: 2rem;
+      border-radius: 20px;
+      background: url(images/studio.jpg)no-repeat center/cover;
+       
+    }
+    .unit4{
+      height: 316px;
+      width:98%;;
+     
+      gap: 2rem;
+      border-radius: 20px;
+      background: url(images/onebed.jpeg)no-repeat center/cover;
+      
+    }
+    .unit5{
+      height: 316px;
+      width:98%;
+     
+      gap: 2rem;
+      border-radius: 20px;
+      background: url(images/2bd.jpeg)no-repeat center/cover;
+      
+    }
+    .unit6{
+      height: 316px;
+      width:98%;
+     
+      gap: 1rem;
+      border-radius: 20px;
+      background: url(images/kitbat.jpeg)no-repeat center/cover;
+      
+    }
+    .unit7{
+      height: 316px;
+      width:98%;
+     
+      gap: 2rem;
+      border-radius: 20px;
+      background: url(images/Flat\ Packed\ In\ Kent\ -\ House\ Hunting.jpeg)no-repeat center/cover;
+       
+    }
+    .unit8{
+      height: 316px;
+      width:98%;
+     
+      gap: 2rem;
+      border-radius: 20px;
+      background: url(images/freewifi.jpeg)no-repeat center/cover;
+       
+    }
+    .unit9{
+      height: 316px;
+      width:98%;
+     
+      gap: 2rem;
+      border-radius: 20px;
+      background: url(images/park.jpeg)no-repeat center/cover;
+       
+    }
+    .unit10{
+      height: 316px;
+      width:98%;
+     
+      gap: 2rem;
+      border-radius: 20px;
+      background: url(images/laundry.jpeg)no-repeat center/cover;
+       
+    }
+    .unit11{
+      height: 316px;
+      width:98%;
+     
+      gap: 2rem;
+      border-radius: 20px;
+      background: url(images/gym.jpeg)no-repeat center/cover;
+       
+    }
+    .unit12{
+      height: 316px;
+      width:98%;
+     
+      gap: 2rem;
+      border-radius: 20px;
+      background: url(images/swimy.jpeg)no-repeat center/cover;
+       
+    }
+    .unit13{
+      height: 316px;
+      width:98%;
+     
+      gap: 2rem;
+      border-radius: 20px;
+      background: url(images/elev.jpeg)no-repeat center/cover;
+       
+    }
+    .unit14{
+      height: 316px;
+      width:98%;
+     
+      gap: 2rem;
+      border-radius: 20px;
+      background: url(images/theatre.jpeg)no-repeat center/cover;
+       
+    }
+    .unit17{
+      height: 316px;
+      width:98%;
+     
+      gap: 2rem;
+      border-radius: 20px;
+      background: url(images/download.jpeg)no-repeat center/cover;
+       
+    }
+    .unit18{
+      height: 316px;
+      width:98%;
+     
+      gap: 2rem;
+      border-radius: 20px;
+      background: url(images/images.jpeg)no-repeat center/cover;
+       
+    }
+    .pad{
+      
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--flag);
+      font-weight:400;
+      font-size: large;
+    }
+    .contact{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8rem;
+    }
+    
+
+    
+
+      
+     
